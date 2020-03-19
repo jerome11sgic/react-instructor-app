@@ -1,6 +1,6 @@
 import axios from 'axios'
 const INSTRUCTOR = 'in28minutes'
-const COURSE_API_URL = 'http://ec2-54-163-215-109.compute-1.amazonaws.com'
+const COURSE_API_URL = 'http://ec2-54-163-215-109.compute-1.amazonaws.com:8081'
 const INSTRUCTOR_API_URL = `${COURSE_API_URL}/instructors/${INSTRUCTOR}`
 class CourseDataService {
     retrieveAllCourses(name) {
